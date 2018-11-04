@@ -36,17 +36,17 @@ $(document).ready(function() {
                   }
                 }
               },
-              /*              					 email: {
-                            							 validators: {
-                            									 notEmpty: {
-                            											 message: 'Please supply your email address'
-                            									 },
-                            									 emailAddress: {
-                            											 message: 'Please supply a valid email address'
-                            									 }
-                            							 }
-                            					 },
-                            					 phone: {
+              email: {
+                validators: {
+                  notEmpty: {
+                    message: 'Please supply your email address'
+                  },
+                  emailAddress: {
+                    message: 'Please supply a valid email address'
+                  }
+                }
+              },
+              /*              					 phone: {
                             							 validators: {
                             									 notEmpty: {
                             											 message: 'Please supply your phone number'
