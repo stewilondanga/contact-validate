@@ -77,14 +77,14 @@ $(document).ready(function() {
                   }
                 }
               },
-              /*              					 state: {
-                            							 validators: {
-                            									 notEmpty: {
-                            											 message: 'Please select your state'
-                            									 }
-                            							 }
-                            					 },
-                            					 zip: {
+              state: {
+                validators: {
+                  notEmpty: {
+                    message: 'Please select your state'
+                  }
+                }
+              },
+              /*              					 zip: {
                             							 validators: {
                             									 notEmpty: {
                             											 message: 'Please supply your zip code'
