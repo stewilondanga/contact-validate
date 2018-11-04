@@ -1,13 +1,13 @@
-/*var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+var navigate = (function() {
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
-$(document).ready(function() {
+/*$(document).ready(function() {
 	 $('#contact_form').bootstrapValidator({
 			 // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
 			 feedbackIcons: {
