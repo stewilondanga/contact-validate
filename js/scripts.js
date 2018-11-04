@@ -57,17 +57,17 @@ $(document).ready(function() {
                   }
                 }
               },
-              /*              					 address: {
-                            							 validators: {
-                            										stringLength: {
-                            											 min: 8,
-                            									 },
-                            									 notEmpty: {
-                            											 message: 'Please supply your street address'
-                            									 }
-                            							 }
-                            					 },
-                            					 city: {
+              address: {
+                validators: {
+                  stringLength: {
+                    min: 8,
+                  },
+                  notEmpty: {
+                    message: 'Please supply your street address'
+                  }
+                }
+              },
+              /*              					 city: {
                             							 validators: {
                             										stringLength: {
                             											 min: 4,
