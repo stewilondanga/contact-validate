@@ -46,18 +46,18 @@ $(document).ready(function() {
                   }
                 }
               },
-              /*              					 phone: {
-                            							 validators: {
-                            									 notEmpty: {
-                            											 message: 'Please supply your phone number'
-                            									 },
-                            									 phone: {
-                            											 country: 'US',
-                            											 message: 'Please supply a vaild phone number with area code'
-                            									 }
-                            							 }
-                            					 },
-                            					 address: {
+              phone: {
+                validators: {
+                  notEmpty: {
+                    message: 'Please supply your phone number'
+                  },
+                  phone: {
+                    country: 'US',
+                    message: 'Please supply a vaild phone number with area code'
+                  }
+                }
+              },
+              /*              					 address: {
                             							 validators: {
                             										stringLength: {
                             											 min: 8,
