@@ -67,17 +67,17 @@ $(document).ready(function() {
                   }
                 }
               },
-              /*              					 city: {
-                            							 validators: {
-                            										stringLength: {
-                            											 min: 4,
-                            									 },
-                            									 notEmpty: {
-                            											 message: 'Please supply your city'
-                            									 }
-                            							 }
-                            					 },
-                            					 state: {
+              city: {
+                validators: {
+                  stringLength: {
+                    min: 4,
+                  },
+                  notEmpty: {
+                    message: 'Please supply your city'
+                  }
+                }
+              },
+              /*              					 state: {
                             							 validators: {
                             									 notEmpty: {
                             											 message: 'Please select your state'
