@@ -84,18 +84,18 @@ $(document).ready(function() {
                   }
                 }
               },
-              /*              					 zip: {
-                            							 validators: {
-                            									 notEmpty: {
-                            											 message: 'Please supply your zip code'
-                            									 },
-                            									 zipCode: {
-                            											 country: 'US',
-                            											 message: 'Please supply a vaild zip code'
-                            									 }
-                            							 }
-                            					 },
-                            					 comment: {
+              zip: {
+                validators: {
+                  notEmpty: {
+                    message: 'Please supply your zip code'
+                  },
+                  zipCode: {
+                    country: 'US',
+                    message: 'Please supply a vaild zip code'
+                  }
+                }
+              },
+              /*              					 comment: {
                             							 validators: {
                             										 stringLength: {
                             											 min: 10,
